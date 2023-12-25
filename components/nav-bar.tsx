@@ -20,7 +20,7 @@ export default function NavBar() {
         "/contact": "Contact 👋"
     }
 
-    const title = titleMap[pathname];
+    const title = titleMap[pathname] || "Oops";
 
     const links: { title: string; href: string; icon: any }[] = [
         {
