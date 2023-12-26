@@ -34,9 +34,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <NavBar />
-          <div className="my-4">
+          <main className="flex flex-col items-center justify-between min-h-full p-4">
             {children}
-          </div>
+          </main>
           <Footer />
         </ThemeProvider></body>
     </html>
