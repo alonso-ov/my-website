@@ -52,7 +52,7 @@ export default function ContactForm() {
                         <FormItem>
                             <FormLabel>Subject</FormLabel>
                             <FormControl>
-                                <Input placeholder="Inquiry" {...field} />
+                                <Input placeholder="Enter inquiry here" {...field} />
                             </FormControl>
                             <FormMessage />
                         </FormItem>
