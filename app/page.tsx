@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ProfessionalExperiences from "@/components/professional-experiences";
+import ProfessionalExperiences from "@/components/root/professional-experiences";
 
 export default function AboutMe() {
   return (
@@ -16,7 +16,7 @@ export default function AboutMe() {
           />
         </div>
         <p className="flex-grow p-4">
-          Hello! My name is Alonso <span className="text-gray-400">(Al-ohn-soh)</span>. I am a software engineer
+          Hello! My name is Alonso <span className="text-gray-500 dark:text-gray-400">(Al-ohn-soh)</span>. I am a software engineer
           and I am passionate about technology, design, and people. I am a creative problem solver and I love to learn.
           I am currently looking for opportunities to help me leverage my skills, knowledge, and creativity, and that can also
           provide me with opportunities to learn, grow, and help people. I am eager to apply my passion and enthusiasm to new

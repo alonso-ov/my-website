@@ -1,4 +1,4 @@
-import ContactForm from "@/components/contact-form";
+import ContactForm from "@/components/root/contact-form";
 import { Linkedin, Github } from "lucide-react";
 import Link from 'next/link';
 

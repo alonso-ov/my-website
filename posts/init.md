@@ -1,0 +1,14 @@
+---
+title: "Welcome to my Blog"
+description: "This is my first post of many to come! Hope you get something out of it!"
+date: "12-27-2023"
+---
+
+## My Journey, Up to this Point
+
+Hello! Nice to meet you there. My name is Alonso and I am a recent computer science graduate. I enjoy learning
+about various programming topics from blockchain to the latest JavaScript frameworks. I first started out
+programming in high school and was quickly drawn into the field. I chased my curiosity all the way through my
+undergraduate studies. Since my education, I have been craving a way to do more learning and grow as a developer.
+As a result I have created this blog to track my curiosity and share it with anyone interested. I hope that I can
+help someone continue to learn and grow as a developer through these posts.

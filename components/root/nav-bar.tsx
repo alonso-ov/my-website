@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { Button } from "@/components/ui/button"
-import { ThemeToggleButton } from '@/components/theme-toggle-button';
+import { ThemeToggleButton } from '@/components/root/theme-toggle-button';
 import {
     User,
     FileText,
@@ -14,13 +14,14 @@ import { usePathname } from 'next/navigation';
 export default function NavBar() {
     const pathname = usePathname();
 
-    const titleMap: { [key: string]: string } = {
-        "/": "About Me 👨‍💻",
-        "/blog": "Blog 🚀",
-        "/contact": "Contact 👋"
+    const getTitle = (pathname: string): string => {
+        if (pathname === "/") return "About Me 👨‍💻";
+        if (pathname.startsWith("/blog")) return "Blog 🚀";
+        if (pathname === "/contact") return "Contact 👋";
+        return "Oops";
     }
 
-    const title = titleMap[pathname] || "Oops";
+    const title = getTitle(pathname);
 
     const links: { title: string; href: string; icon: any }[] = [
         {

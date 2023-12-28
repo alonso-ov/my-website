@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { cn } from "@/lib/utils";
 import { Noto_Sans as FontSans } from 'next/font/google';
 import './globals.css';
-import { ThemeProvider } from "@/components/theme-provider";
-import NavBar from "@/components/nav-bar";
-import Footer from "@/components/footer";
+import { ThemeProvider } from "@/components/root/theme-provider";
+import NavBar from "@/components/root/nav-bar";
+import Footer from "@/components/root/footer";
 
 export const fontSans = FontSans({
   subsets: ["latin"],
