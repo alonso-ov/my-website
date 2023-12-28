@@ -14,7 +14,7 @@ export default function ProfessionalExperiences() {
             timeFrame: "January 2023 - August 2023"
         },
         {
-            title: "Software Engineer",
+            title: "Software Engineer Intern",
             description: "Led frontend design and UI development, crafted efficient database schema and APIs using Python (Flask), SQL, and web technologies. Mentored a team in Git for better collaboration. Delivered a secure database solution for the client's unique datasets, ensuring efficient oversight.",
             employer: "CTTA",
             timeFrame: "January 2023 - May 2023"
@@ -24,19 +24,7 @@ export default function ProfessionalExperiences() {
             description: "Created a data visualization web app for analyzing traffic congestion trends, optimized the data wrangling process, and developed a tool to aid officials in traffic-related policy-making",
             employer: "San Francisco International Airport",
             timeFrame: "Jun 2022 - Aug 2022"
-        },
-        {
-            title: "Math Tutor",
-            description: "Provided 1:1 academic assistance to undergraduates, offering support with homework, quizzes, and discussions. Advised students on academic success through advocacy of study techniques and campus resources. Contributed to students' education by mentoring.",
-            employer: "University of California, Merced",
-            timeFrame: "Oct 2020 - Dec 2022"
-        },
-        {
-            title: "Research Intern",
-            description: "Engaged in innovative research for crop health detection alternatives in the Central Valley. Designed a preliminary mobile app using machine learning for crop health assessment. Proficient in applying machine learning algorithms to real-world datasets and outlining application development.",
-            employer: "USDA-NIFA-HSI Internship Program",
-            timeFrame: "Jun 2021 - Jul 2021"
-        },
+        }
     ]
 
     return(
