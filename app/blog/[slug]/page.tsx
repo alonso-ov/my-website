@@ -30,7 +30,7 @@ export default function BlogPost(props: any) {
             </div>
 
             <div className="flex justify-center border-t pt-6">
-                <article className="w-fit mb-8 prose-sm prose prose-slate dark:prose-pre:bg-gray-800 dark:prose-invert">
+                <article className="w-full mb-8 prose-sm prose prose-slate dark:prose-pre:bg-gray-800 dark:prose-invert">
                         <Markdown>{post.content}</Markdown>
                 </article>
             </div>
