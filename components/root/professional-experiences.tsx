@@ -14,7 +14,7 @@ export default function ProfessionalExperiences() {
             timeFrame: "January 2023 - August 2023"
         },
         {
-            title: "Software Engineer Intern",
+            title: "Software Engineer (Capstone Project)",
             description: "Led frontend design and UI development, crafted efficient database schema and APIs using Python (Flask), SQL, and web technologies. Mentored a team in Git for better collaboration. Delivered a secure database solution for the client's unique datasets, ensuring efficient oversight.",
             employer: "CTTA",
             timeFrame: "January 2023 - May 2023"
