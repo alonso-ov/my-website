@@ -8,22 +8,22 @@ export default function ProfessionalExperiences() {
 
     const experiences: ExperienceProps[] = [
         {
+            title: "Engineering and Research Intern",
+            description: "Developed and implemented data visualization tools to analyze complex datasets, to enhance operations with data-driven decisions. Effectively communicate with R&D colleagues about production schedules, activities, and issues.Creating, maintaining, organizing, and presenting detailed production records on production volume, product quality, and key performance metrics to drive continuous improvement. Recommended process and equipment improvements to boost efficiency and productivity.",
+            employer: "Morning Star Company",
+            timeFrame: "July 2024 - Present"
+        },
+        {
             title: "Web Developer Intern",
-            description: "Led the $65M AgTech and climate-smart farming initiative redesign, transforming branding and program structure. Utilized React.js for an inclusive UI. Revamped two organization websites (vista.ucmerced.edu, f3.ucmerced.edu), enhancing functionality, user experience, accessibility, and performance.",
+            description: "Developed and launched a high-performance website for an AgTech initiative using React, showcasing advanced user interface design and problem-solving expertise. Spearheaded project scheduling by creating and managing a detailed Gantt chart, leading weekly progress review meetings with supervisors to provide status updates and proactively address potential roadblocks. Authored comprehensive documentation, including technical specifications and training materials, ensuring effective knowledge transfer and team collaboration.",
             employer: "CITRIS",
             timeFrame: "January 2023 - August 2023"
         },
         {
-            title: "Software Engineer (Capstone Project)",
-            description: "Led frontend design and UI development, crafted efficient database schema and APIs using Python (Flask), SQL, and web technologies. Mentored a team in Git for better collaboration. Delivered a secure database solution for the client's unique datasets, ensuring efficient oversight.",
-            employer: "CTTA",
-            timeFrame: "January 2023 - May 2023"
-        },
-        {
             title: "Data Science Intern",
-            description: "Created a data visualization web app for analyzing traffic congestion trends, optimized the data wrangling process, and developed a tool to aid officials in traffic-related policy-making",
+            description: "Engineered a web application using Python to visualize real-world traffic congestion data around the airport, offering insightful representations for enhanced weekly analysis. Enhanced data transformation with Python’s Pandas library, achieving a 50% reduction in processing time through efficient vectorization techniques. Utilized Jira for project management, task prioritization, and Agile methodologies, consistently improving project outcomes and delivering high-quality results. Concluded internship with a comprehensive PowerPoint presentation to a diverse staff, effectively communicating the insights and impact of my summer internship work.",
             employer: "San Francisco International Airport",
-            timeFrame: "Jun 2022 - Aug 2022"
+            timeFrame: "June 2022 - August 2022"
         }
     ]
 
