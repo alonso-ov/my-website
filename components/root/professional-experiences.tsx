@@ -9,7 +9,7 @@ export default function ProfessionalExperiences() {
     const experiences: ExperienceProps[] = [
         {
             title: "Engineering and Research Intern",
-            description: "Developed and implemented data visualization tools to analyze complex datasets, to enhance operations with data-driven decisions. Effectively communicate with R&D colleagues about production schedules, activities, and issues.Creating, maintaining, organizing, and presenting detailed production records on production volume, product quality, and key performance metrics to drive continuous improvement. Recommended process and equipment improvements to boost efficiency and productivity.",
+            description: "Developed and implemented data visualization tools to analyze complex datasets, to enhance operations with data-driven decisions. Effectively communicate with R&D colleagues about production schedules, activities, and issues. Creating, maintaining, organizing, and presenting detailed production records on production volume, product quality, and key performance metrics to drive continuous improvement. Recommended process and equipment improvements to boost efficiency and productivity.",
             employer: "Morning Star Company",
             timeFrame: "July 2024 - Present"
         },
