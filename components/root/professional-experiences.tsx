@@ -8,10 +8,16 @@ export default function ProfessionalExperiences() {
 
     const experiences: ExperienceProps[] = [
         {
+            title: "SQL Report Developer",
+            description: "Design, develop, and maintain reports, databases, dashboards, and stored procedures using SQL Server. Build require infrastructure for optimal extraction, transformation, and loading of various data source. Conduct data analysis to identify trends and insights.",
+            employer: "Morning Star Company",
+            timeFrame: "December 2024 - Present"
+        },
+        {
             title: "Engineering and Research Intern",
             description: "Developed and implemented data visualization tools to analyze complex datasets, to enhance operations with data-driven decisions. Effectively communicate with R&D colleagues about production schedules, activities, and issues. Creating, maintaining, organizing, and presenting detailed production records on production volume, product quality, and key performance metrics to drive continuous improvement. Recommended process and equipment improvements to boost efficiency and productivity.",
             employer: "Morning Star Company",
-            timeFrame: "July 2024 - Present"
+            timeFrame: "July 2024 - November 2024"
         },
         {
             title: "Web Developer Intern",
